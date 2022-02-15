@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# CORS configuration. For more information visit https://fastapi.tiangolo.com/tutorial/cors/#use-corsmiddleware 
+# CORS configuration. For more information visit https://fastapi.tiangolo.com/tutorial/cors/#use-corsmiddleware
 app.add_middleware(
     CORSMiddleware,
     # the list of origins that are allowed to communicate with our api
